@@ -1,0 +1,15 @@
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\bin\Debug\netcoreapp3.1\Business.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\bin\Debug\netcoreapp3.1\Business.pdb
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\obj\Debug\netcoreapp3.1\Business.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\obj\Debug\netcoreapp3.1\Business.pdb

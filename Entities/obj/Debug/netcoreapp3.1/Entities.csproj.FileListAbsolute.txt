@@ -1,0 +1,10 @@
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Entities\obj\Debug\netcoreapp3.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
