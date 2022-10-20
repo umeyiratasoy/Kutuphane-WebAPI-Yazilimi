@@ -8,3 +8,6 @@ D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Entities\obj\Deb
 D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
 D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Entities\bin\Debug\netcoreapp3.1\Core.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Entities\bin\Debug\netcoreapp3.1\Core.pdb
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete

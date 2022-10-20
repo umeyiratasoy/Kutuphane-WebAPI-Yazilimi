@@ -11,3 +11,5 @@ D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\DataAccess\obj\D
 D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
 D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
 D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\DataAccess\bin\Debug\netcoreapp3.1\Core.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\DataAccess\bin\Debug\netcoreapp3.1\Core.pdb

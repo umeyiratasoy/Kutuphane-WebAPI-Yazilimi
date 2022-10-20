@@ -1,0 +1,10 @@
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Core\bin\Debug\netstandard2.1\Core.deps.json
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Core\bin\Debug\netstandard2.1\Core.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Core\bin\Debug\netstandard2.1\Core.pdb
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Core\obj\Debug\netstandard2.1\Core.csproj.AssemblyReference.cache
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Core\obj\Debug\netstandard2.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Core\obj\Debug\netstandard2.1\Core.AssemblyInfoInputs.cache
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Core\obj\Debug\netstandard2.1\Core.AssemblyInfo.cs
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Core\obj\Debug\netstandard2.1\Core.csproj.CoreCompileInputs.cache
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Core\obj\Debug\netstandard2.1\Core.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Core\obj\Debug\netstandard2.1\Core.pdb

@@ -13,3 +13,5 @@ D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\obj\Deb
 D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
 D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\obj\Debug\netcoreapp3.1\Business.dll
 D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\obj\Debug\netcoreapp3.1\Business.pdb
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\bin\Debug\netcoreapp3.1\Core.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Business\bin\Debug\netcoreapp3.1\Core.pdb
