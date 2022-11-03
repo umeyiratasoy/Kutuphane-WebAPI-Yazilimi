@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
+using Entities.DTOs;
 
 namespace DataAccess.Concrete.InMemory
 {
@@ -58,6 +59,11 @@ namespace DataAccess.Concrete.InMemory
         {
             return _cars.Where(c => c.Id == carId).ToList();
 
+        }
+
+        public List<CarDetailDto> GetCarDetails()
+        {
+            throw new NotImplementedException();
         }
 
         public void Update(Car car)
