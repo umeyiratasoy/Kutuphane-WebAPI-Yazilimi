@@ -18,8 +18,8 @@ namespace DataAccess.Concrete.InMemory
         {
             _cars = new List<Car>
             {
-                new Car{Id = 1,BrandId = 1,ColorId = 1,DailyPrice = 250000,ModelYear = 2012,Description = "Citroen Berlingo"},
-                new Car{Id = 2,BrandId = 2,ColorId = 1,DailyPrice = 170000,ModelYear = 2010,Description = "Fiat Doblo"},
+                new Car{Id = 1,DailyPrice = 250000,ModelYear = 2012,Descriptionn = "Citroen Berlingo"},
+                new Car{Id = 2, DailyPrice = 170000,ModelYear = 2010,Descriptionn = "Fiat Doblo"},
 
             };
         }
@@ -65,10 +65,8 @@ namespace DataAccess.Concrete.InMemory
 
             Car carToUpdate = _cars.SingleOrDefault(c => c.Id == car.Id);
             carToUpdate.Id = car.Id;
-            carToUpdate.BrandId = car.BrandId;
-            carToUpdate.ColorId = car.ColorId;
             carToUpdate.DailyPrice = car.DailyPrice;
-            carToUpdate.Description = car.Description;
+            carToUpdate.Descriptionn = car.Descriptionn;
             carToUpdate.ModelYear = car.ModelYear;
 
 
