@@ -31,7 +31,34 @@ namespace ConsoleUI
             //ColorGetAll();
             //ColorGetById();
             //DtoBirleşimi();
+            //UserAdd();
+            //CustomerAdd();
+            //RentalAdd();
 
+        }
+
+        private static void RentalAdd()
+        {
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
+            var rental = new Rental { Id = 2, CarId = 2, CustomerId = 2, RentDate = new DateTime(2022, 11, 7), ReturnDate = new DateTime(2022, 11, 8) };
+            var result = rentalManager.Add(rental);
+            Console.WriteLine(result.Message);
+        }
+
+        private static void CustomerAdd()
+        {
+            CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
+            var customer = new Customer { CustomerId = 2, UserId = 2, CompanyName = "ATASOY" };
+            var result = customerManager.Add(customer);
+            Console.WriteLine(result.Message);
+        }
+
+        private static void UserAdd()
+        {
+            UserManager userManager = new UserManager(new EfUserDal());
+            var user = new User { Id = 2, FirstName = "Ümeyir", LastName = "ATASOY", Email = "umeyiratasoyy@gmail.com", Password = "55" };
+            var result = userManager.Add(user);
+            Console.WriteLine(result.Message);
         }
 
         private static void DtoBirleşimi()
@@ -66,7 +93,7 @@ namespace ConsoleUI
             ColorManager colorManager = new ColorManager(new EfColorDal());
             var color = new Color { Id = 2, Name = "Blue" };
             var result = colorManager.Update(color);
-            Console.WriteLine(Messages.ColorUpdated);
+            Console.WriteLine(result.Message);
         }
 
         private static void ColorDelete()
@@ -74,7 +101,7 @@ namespace ConsoleUI
             ColorManager colorManager = new ColorManager(new EfColorDal());
             var color = new Color { Id = 4, Name = "Blue" };
             var result = colorManager.Delete(color);
-            Console.WriteLine(Messages.ColorRemoved);
+            Console.WriteLine(result.Message);
         }
 
         private static void ColorAdd()
@@ -82,7 +109,7 @@ namespace ConsoleUI
             ColorManager colorManager = new ColorManager(new EfColorDal());
             var color = new Color { Id = 5, Name = "Yellow" };
             var result = colorManager.Add(color);
-            Console.WriteLine(Messages.ColorAdded);
+            Console.WriteLine(result.Message);
         }
 
         private static void CarGetById()
@@ -125,7 +152,7 @@ namespace ConsoleUI
             BrandManager brandManager = new BrandManager(new EfBrandDal());
             var brand = new Brand { Id = 2, Name = "Honda" };
             var result = brandManager.Update(brand);
-            Console.WriteLine(Messages.BrandUpdated);
+            Console.WriteLine(result.Message);
         }
 
         private static void BrandDelete()
@@ -133,15 +160,15 @@ namespace ConsoleUI
             BrandManager brandManager = new BrandManager(new EfBrandDal());
             var brand = new Brand { Id = 4, Name = "Honda" };
             var result = brandManager.Delete(brand);
-            Console.WriteLine(Messages.BrandRemoved);
+            Console.WriteLine(result.Message);
         }
 
         private static void BrandAdd()
         {
             BrandManager brandManager = new BrandManager(new EfBrandDal());
-            var brand = new Brand { Id = 4, Name = "Honda" };
+            var brand = new Brand { Id = 5, Name = "Mercedes" };
             var result = brandManager.Add(brand);
-            Console.WriteLine(Messages.BrandAdded);
+            Console.WriteLine(result.Message);
         }
 
         private static void GetCarsByColorId()
@@ -159,7 +186,7 @@ namespace ConsoleUI
             CarManager carManager = new CarManager(new EfCarDal());
             var car = new Car() { Id = 1, Descriptionn = "updated", DailyPrice = 2247, ModelYear = 1999, };
             var result = carManager.Update(car);
-            Console.WriteLine(Messages.CarUpdated);
+            Console.WriteLine(result.Message);
         }
 
         private static void CarDelete()
@@ -167,7 +194,7 @@ namespace ConsoleUI
             CarManager carManager = new CarManager(new EfCarDal());
             var car = new Car { Id = 55, Descriptionn = "Mercedes", DailyPrice = 1200, ModelYear = 2008 };
             var result = carManager.Delete(car);
-            Console.WriteLine(car.Descriptionn + Messages.CarRemoved);
+            Console.WriteLine(car.Descriptionn + result.Message);
         }
 
         private static void CarAdd()
@@ -175,7 +202,7 @@ namespace ConsoleUI
             CarManager carManager = new CarManager(new EfCarDal());
             var car = new Car { Id = 55, Descriptionn = "Mercedes", DailyPrice = 1200, ModelYear = 2008 };
             var result = carManager.Add(car);
-            Console.WriteLine(car.Descriptionn + Messages.CarAdded);
+            Console.WriteLine(car.Descriptionn + result.Message);
         }
         
         private static void GetCarsByBrandId()
