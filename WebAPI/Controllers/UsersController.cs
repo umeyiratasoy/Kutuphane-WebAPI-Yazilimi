@@ -20,6 +20,17 @@ namespace WebAPI.Controllers
             _userService = userService;
         }
 
+        [HttpGet("GetAll")] 
+        public IActionResult GetAll()
+        {
+            var result = _userService.GetAll();
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
         [HttpPost("Add")]
         public IActionResult Add(User user)
         {

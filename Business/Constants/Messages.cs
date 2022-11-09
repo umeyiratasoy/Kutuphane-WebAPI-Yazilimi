@@ -12,8 +12,6 @@ namespace Business.Constants
         public static string CarRemoved = "Car Removed.";
         public static string CarUpdated = "Car Updated.";
         public static string CarListed = "Car Listed.";
-        public static string CarIkıKarakterKucukNo = "Araba Fiyatı Sıfırdan Küçük Olamaz: ";
-        public static string CarIkıKarakterKucukYes = "Araba İsmi En Az İki Kelime Olmalıdır: ";
 
         //Brand
         public static string BrandAdded = "Brand Added";
@@ -46,7 +44,8 @@ namespace Business.Constants
         public static string UserAdded = "User Added.";
         public static string UserDeleted = "User Removed.";
         public static string UserUpdated = "User Updated.";
-
+        public static string UserListed = "User Listed.";
+        
 
     }
 }

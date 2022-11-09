@@ -61,3 +61,7 @@ D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\De
 D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.dll
 D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.pdb
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\FluentValidation.dll

@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
@@ -19,26 +21,10 @@ namespace Business.Concrete
             _carDal = carDal;
         }
 
+        [ValidationAspect(typeof(CarValidator))]
         public IResult Add(Car car)
         {
-            if (car.Descriptionn.Length > 2 && car.DailyPrice > 0)
-            {
-                _carDal.Add(car);
-            }
-            else if (car.Descriptionn.Length > 2 && car.DailyPrice <= 0)
-            {
-                return new ErrorResult(Messages.CarIkıKarakterKucukNo + car.DailyPrice);
-            }
-            else if (car.Descriptionn.Length < 2 && car.DailyPrice > 0)
-            {
-                return new ErrorResult(Messages.CarIkıKarakterKucukYes + car.Descriptionn);
-            }
-
-            else
-            {
-                Console.WriteLine("Araba marka ismi minimum 2 karakter olmalı, günlük fiyat ise 0'dan büyük olmalıdır");
-            }
-
+            _carDal.Add(car);
             return new SuccessResult(Messages.CarAdded);
         }
 
@@ -77,7 +63,7 @@ namespace Business.Concrete
         public IResult Update(Car car)
         {
             _carDal.Update(car);
-            return new SuccessResult( Messages.CarUpdated);
+            return new SuccessResult(Messages.CarUpdated);
         }
     }
 }
