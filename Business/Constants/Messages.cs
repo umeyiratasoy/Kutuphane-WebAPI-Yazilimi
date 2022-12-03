@@ -45,7 +45,11 @@ namespace Business.Constants
         public static string UserDeleted = "User Removed.";
         public static string UserUpdated = "User Updated.";
         public static string UserListed = "User Listed.";
-        
 
+        public static string CarImageUpdated = "Car Image Updated";
+
+        public static string CarImageDeleteError = "Car Image Deleted Error";
+        public static string CarImageDeleteSuccess = "Car Image Deleted Success";
+        public static string CarImageAdded = "Car Image Added";
     }
 }
