@@ -65,3 +65,13 @@ D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\De
 D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
 D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Castle.Core.dll
 D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.WebUtilities.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.ObjectPool.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Abstractions.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.Net.Http.Headers.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\System.Text.Json.dll
