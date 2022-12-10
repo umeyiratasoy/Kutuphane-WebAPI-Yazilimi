@@ -85,7 +85,6 @@ After running the Web API, you can make HTTP requests like:
 | Mime-Detective | 22.7.16 |
 | Newtonsoft.Json | 10.0.1 |
 
-## Contributions
 
 ## Associated Project
 
