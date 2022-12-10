@@ -1,10 +1,11 @@
 # <p align="center">Car Project</p>
-Daily car rental simulation. 
+Daily car rental simulation. </br>
 The project was developed in accordance with SOLID, Enterprise Software Architecture, AOP and Software Development Principles.
 
-<a href = "https://www.linkedin.com/in/umeyir-atasoy/"><img align="center" src = "https://marka-logo.com/wp-content/uploads/2020/04/Linkedin-Logo.png" width = "85" height = "50" alt = "My Linkedin Profile"/></a>
+<div align="center">
+   <a href = "https://www.linkedin.com/in/umeyir-atasoy/"><img  src = "https://marka-logo.com/wp-content/uploads/2020/04/Linkedin-Logo.png" width = "85" height = "50" alt = "My Linkedin Profile"/></a>
+<div>
 
-<a href = "https://www.linkedin.com/in/umeyir-atasoy/"><img src = "https://marka-logo.com/wp-content/uploads/2020/04/Linkedin-Logo.png" width = "85" height = "50" alt = "My Linkedin Profile"/></a>
 
 
 ## Technologies, Frameworks and Best Practices
@@ -30,17 +31,9 @@ The project was developed in accordance with SOLID, Enterprise Software Architec
    git clone https://github.com/umeyiratasoy/ReCapProject.git
    ```
 2. Open the `ReCapProject.sln` file with `Visual Studio`
-3. Open the `ReCapProjectContext.cs` file in the `DataAccess.Concrete.EntityFramework` folder and enter your own database connection string
-4. Open `Package Manager Console` and run the following commands:
+3. Integrate the `ReCapProject.sql` file into the database.
+4. Open the `ReCapProjectContext.cs` file in the `DataAccess.Concrete.EntityFramework` folder and enter your own database connection string
 
-   ```sh
-   cd DataAccess
-   dotnet ef database update
-   ```
-   `NOTE:` Requires `dotnet ef` installation. Command for installation:
-   ```sh
-   dotnet tool install --global dotnet-ef
-   ```
    
 5. Right click on the `WebAPI` project (layer) from the `Solution Explorer` and select `Set as Startup Project` 
 6. Start the project with `IIS Express` in Visual Studio. Web API is ready and running!
