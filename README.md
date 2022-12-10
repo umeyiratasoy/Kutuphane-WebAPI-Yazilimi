@@ -87,4 +87,8 @@ After running the Web API, you can make HTTP requests like:
 
 ## Contributions
 
+<<<<<<< HEAD
 Thanks to dear [Engin Demiroğ](https://github.com/engindemirog) for his contributions.
+=======
+Thanks to dear [Engin Demiroğ](https://github.com/engindemirog) for his contributions.
+>>>>>>> cbc5cb7c8384eaf647b1268f38269dc5ae48f551
