@@ -11,7 +11,7 @@ namespace Core.Utilities.Helpers.FileHelper
     public class FileHelperManager : IFileHelper
     {
 
-        public string Upload(List<IFormFile> file, string root)
+        public string Upload(List<IFormFile> file, string root) // IFormFile: HttpRequest ile gönderilen bir dosyayı temsil eder.
         {
             StringBuilder builder = new StringBuilder();
 
@@ -26,11 +26,11 @@ namespace Core.Utilities.Helpers.FileHelper
                 foreach (var item in file)
                 {
                     var extension = Path.GetExtension(item.FileName);
-                    string guid = Guid.NewGuid().ToString();
+                    string guid = Guid.NewGuid().ToString(); //Eşsiz isim
                     var path = guid + extension;
 
                     builder.Append(path + ";");
-                    using FileStream fileStream = File.Create(root + path);
+                    using FileStream fileStream = File.Create(root + path); //belirtilen kaynak dosyalar üzerinde okuma/yazma/atlama gibi operasyonları yapmamıza yardımcı olur.
                     item.CopyTo(fileStream);
                     fileStream.Flush();
                 }

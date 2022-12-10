@@ -20,6 +20,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Core.Utilities.Security.Encyption;
 using Core.Utilities.Security.Jwt;
+using Core.Extensions;
+using Core.DependencyResolvers;
 
 namespace WebAPI
 {
@@ -36,9 +38,12 @@ namespace WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            //services.AddSingleton<IProductService,ProductManager>();
-            //services.AddSingleton<IProductDal, EfProductDal>();
-            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            //services.AddSingleton<ICarService,CarManager>();
+            //services.AddSingleton<ICarDal, EfCarDal>();
+            //services.AddSingleton<IColorService, ColorManager>();
+            //services.AddSingleton<IColorDal, EfColorDal>();
+            //services.AddSingleton<IBrandService, BrandManager>();
+            //services.AddSingleton<IBrandDal, EfBrandDal>();
             var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
 
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -55,7 +60,8 @@ namespace WebAPI
                         IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
                     };
                 });
-            ServiceTool.Create(services);
+
+            services.AddDependencyResolvers(new ICoreModule[] { new CoreModule() }); // eklenecek
 
         }
 
@@ -71,9 +77,9 @@ namespace WebAPI
 
             app.UseRouting();
 
-            app.UseAuthentication();
+            app.UseAuthentication(); //eklenen
 
-            app.UseAuthorization();
+            app.UseAuthorization(); //eklenen
 
             app.UseEndpoints(endpoints =>
             {
