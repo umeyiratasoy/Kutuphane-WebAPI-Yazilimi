@@ -1,6 +1,6 @@
 # <p align="center">Car Project</p>
-Daily car rental simulation. </br>
-The project was developed in accordance with SOLID, Enterprise Software Architecture, AOP and Software Development Principles.
+<div align="center">Daily car rental simulation. </br>
+The project was developed in accordance with SOLID, Enterprise Software Architecture, AOP and Software Development Principles. </div>
 
 <div align="center">
    <a href = "https://www.linkedin.com/in/umeyir-atasoy/"><img  src = "https://marka-logo.com/wp-content/uploads/2020/04/Linkedin-Logo.png" width = "85" height = "50" alt = "My Linkedin Profile"/></a>
@@ -87,10 +87,10 @@ After running the Web API, you can make HTTP requests like:
 
 ## Contributions
 
-<<<<<<< HEAD
+## Associated Project
+
+The frontend of this project [ReCarProject-Frontend](#) | Will be added later.
+
+## Contributions
+
 Thanks to dear [Engin Demiroğ](https://github.com/engindemirog) for his contributions.
-=======
-Thanks to dear [Engin Demiroğ](https://github.com/engindemirog) for his contributions.
->>>>>>> cbc5cb7c8384eaf647b1268f38269dc5ae48f551
-engindemirog) for his contributions.
->>>>>>> cbc5cb7c8384eaf647b1268f38269dc5ae48f551
