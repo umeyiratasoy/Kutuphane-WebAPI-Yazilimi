@@ -4,7 +4,7 @@ The project was developed in accordance with SOLID, Enterprise Software Architec
 
 <div align="center">
    <a href = "https://www.linkedin.com/in/umeyir-atasoy/"><img  src = "https://marka-logo.com/wp-content/uploads/2020/04/Linkedin-Logo.png" width = "85" height = "50" alt = "My Linkedin Profile"/></a>
-<div>
+</div>
 
 
 
