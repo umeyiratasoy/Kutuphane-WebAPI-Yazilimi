@@ -1,6 +1,6 @@
 # <p align="center">Car Project</p>
-Daily car rental simulation. </br>
-The project was developed in accordance with SOLID, Enterprise Software Architecture, AOP and Software Development Principles.
+<div align="center">Daily car rental simulation. </br>
+The project was developed in accordance with SOLID, Enterprise Software Architecture, AOP and Software Development Principles. </div>
 
 <div align="center">
    <a href = "https://www.linkedin.com/in/umeyir-atasoy/"><img  src = "https://marka-logo.com/wp-content/uploads/2020/04/Linkedin-Logo.png" width = "85" height = "50" alt = "My Linkedin Profile"/></a>
