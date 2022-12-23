@@ -35,7 +35,7 @@ namespace Business.Concrete
         [ValidationAspect(typeof(CarValidator))] // doğrulama
         public IResult Add(Car car)
         {
-            IResult result = BusinessRules.Run(CheckIfCarNameExists(car.Descriptionn), CheckIfBrandIsEnabled());
+            IResult result = BusinessRules.Run(CheckIfCarNameExists(car.Description), CheckIfBrandIsEnabled());
             if (result != null)
             {
                 return result;
@@ -72,17 +72,21 @@ namespace Business.Concrete
 
         public IDataResult<List<CarDetailDto>> GetCarDetails()
         {
-            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(), Messages.CarListed);
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails());
+        }
+        public IDataResult<CarDetailDto> GetCarDetailsById(int id)
+        {
+            return new SuccessDataResult<CarDetailDto>(_carDal.GetCarDetailsById(id), Messages.CarDetailsListed);
         }
 
         public IDataResult<List<Car>> GetCarsByBrandId(int brandId)
         {
-            return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.Id == brandId));
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.BrandId == brandId));
         }
 
         public IDataResult<List<Car>> GetCarsByColorId(int colorId)
         {
-            return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.Id == colorId));
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.ColorId == colorId));
         }
 
         [SecuredOperation("car.add,admin")]
@@ -108,7 +112,7 @@ namespace Business.Concrete
         private IResult CheckIfCarNameExists(string carName)
         {
 
-            var result = _carDal.GetAll(p => p.Descriptionn == carName).Any();
+            var result = _carDal.GetAll(p => p.Description == carName).Any();
             if (result)
             {
                 return new ErrorResult(Messages.CarNameAlreadyExists);
@@ -125,6 +129,11 @@ namespace Business.Concrete
             }
 
             return new SuccessResult();
+        }
+
+        public IDataResult<List<CarDetailDto>> GetCarDetailsByBrandId(int brandId)
+        {
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetailsByBrandId(brandId), Messages.CarDetailsListed);
         }
     }
 }

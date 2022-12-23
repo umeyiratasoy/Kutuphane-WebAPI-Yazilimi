@@ -1,7 +1,9 @@
 ﻿using Business.Abstract;
+using Business.Constants;
 using Entities.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 
 namespace WebAPI.Controllers
@@ -44,15 +46,12 @@ namespace WebAPI.Controllers
         [HttpGet("getbycarid")]
         public IActionResult GetByCarId(int carId)
         {
-            var result = _carImageService.GetByCarId(carId);
+            var result = _carImageService.GetCarImagesByCarId(carId);
             if (result.Success)
             {
                 return Ok(result);
             }
             return Ok(result);
-
-
-
         }
 
         [HttpPost("add")]

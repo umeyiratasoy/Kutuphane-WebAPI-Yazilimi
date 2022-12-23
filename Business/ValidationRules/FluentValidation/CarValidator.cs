@@ -10,8 +10,8 @@ namespace Business.ValidationRules.FluentValidation
     {
         public CarValidator()
         {
-            RuleFor(c => c.Descriptionn).NotEmpty();
-            RuleFor(c => c.Descriptionn).MinimumLength(2).WithMessage("Araba İsmi En Az İki Harf Olmalıdır");
+            RuleFor(c => c.Description).NotEmpty();
+            RuleFor(c => c.Description).MinimumLength(2).WithMessage("Araba İsmi En Az İki Harf Olmalıdır");
             RuleFor(c => c.DailyPrice).NotEmpty();
             RuleFor(c => c.DailyPrice).GreaterThan(0).WithMessage("Araba Fiyatı Sıfırdan Küçük Olamaz");
         }

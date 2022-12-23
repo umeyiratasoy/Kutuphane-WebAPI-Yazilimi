@@ -44,6 +44,7 @@ namespace WebAPI
             //services.AddSingleton<IColorDal, EfColorDal>();
             //services.AddSingleton<IBrandService, BrandManager>();
             //services.AddSingleton<IBrandDal, EfBrandDal>();
+            services.AddCors();
             var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
 
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -72,6 +73,10 @@ namespace WebAPI
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors(builder => builder.WithOrigins("http://localhost:4040").AllowAnyHeader()); //Angular için eklenir.
+
+            app.UseStaticFiles();
 
             app.UseHttpsRedirection();
 

@@ -11,8 +11,8 @@ namespace Business.ValidationRules.FluentValidation
         public BrandValidator()
         {
             RuleFor(b => b.Id).NotEmpty();
-            RuleFor(b => b.Name).NotEmpty();
-            RuleFor(b => b.Name).MinimumLength(2).WithMessage("Marka İsmi En Az İki Harf Olmalıdır");
+            RuleFor(b => b.BrandName).NotEmpty();
+            RuleFor(b => b.BrandName).MinimumLength(2).WithMessage("Marka İsmi En Az İki Harf Olmalıdır");
         }
     }
 }

@@ -29,7 +29,7 @@ namespace Core.Utilities.Helpers.FileHelper
                     string guid = Guid.NewGuid().ToString(); //Eşsiz isim
                     var path = guid + extension;
 
-                    builder.Append(path + ";");
+                    builder.Append(path + "");
                     using FileStream fileStream = File.Create(root + path); //belirtilen kaynak dosyalar üzerinde okuma/yazma/atlama gibi operasyonları yapmamıza yardımcı olur.
                     item.CopyTo(fileStream);
                     fileStream.Flush();

@@ -67,6 +67,6 @@ namespace Business.Constants
         public static string MailAlreadyExists = "User Already Exists";
         public static string ClaimsListed = "Claims Listed";
 
-
+        public static string CarDetailsListed = "Araç Detayları Listelendi";
     }
 }

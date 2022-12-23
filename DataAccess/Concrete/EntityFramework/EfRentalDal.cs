@@ -15,21 +15,34 @@ namespace DataAccess.Concrete.EntityFramework
         {
             using (ReCapProjectContext context = new ReCapProjectContext())
             {
-                var result = from r in context.Rentals
-                             join c in context.Cars
-                             on r.CarId equals c.Id
+                var result = from ca in context.Cars
+                             join b in context.Brands
+                             on ca.BrandId equals b.Id
+                             join re in context.Rentals
+                             on ca.CarId equals re.CarId
+                             join co in context.Colors
+                             on ca.ColorId equals co.Id
+                             from u in context.Users
                              join cu in context.Customers
-                             on r.CustomerId equals cu.CustomerId
+                             on u.Id equals cu.UserId
+                             from ren in context.Rentals
+                             join cus in context.Customers
+                             on ren.CustomerId equals cus.CustomerId
+
                              select new RentalDetailDto
                              {
-                                 Id = r.Id,
-                                 CarId = c.Id,
-                                 CustomerId = cu.CustomerId,
-                                 RentDate = r.RentDate,
-                                 ReturnDate = r.ReturnDate,
-
+                                 RentalId = re.RentalId,
+                                 CarId = ca.CarId,
+                                 CustomerId = cus.CustomerId,
+                                 FirstName = u.FirstName,
+                                 LastName = u.LastName,
+                                 BrandName = b.BrandName,
+                                 Description = ca.Description,
+                                 RentDate = re.RentDate,
+                                 ReturnDate = re.ReturnDate
                              };
                 return result.ToList();
+
             }
         }
     }

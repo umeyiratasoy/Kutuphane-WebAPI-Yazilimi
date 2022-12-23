@@ -115,6 +115,20 @@ namespace Business.Concrete
             }
             return new SuccessResult();
         }
+
+        public IDataResult<List<CarImage>> GetCarImagesByCarId(int carId)
+        {
+            var data = _carImageDal.GetAll(cI => cI.CarId == carId);
+            if (data.Count == 0)
+            {
+                data.Add(new CarImage
+                {
+                    CarId = carId,
+                    ImagePath = "Default.png"
+                });
+            }
+            return new SuccessDataResult<List<CarImage>>(data);
+        }
     }
 
 }

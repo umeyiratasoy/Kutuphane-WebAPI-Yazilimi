@@ -19,8 +19,8 @@ namespace DataAccess.Concrete.InMemory
         {
             _cars = new List<Car>
             {
-                new Car{Id = 1,DailyPrice = 250000,ModelYear = 2012,Descriptionn = "Citroen Berlingo"},
-                new Car{Id = 2, DailyPrice = 170000,ModelYear = 2010,Descriptionn = "Fiat Doblo"},
+                new Car{CarId = 1,DailyPrice = 250000,ModelYear = 2012,Description = "Citroen Berlingo"},
+                new Car{CarId = 2, DailyPrice = 170000,ModelYear = 2010,Description = "Fiat Doblo"},
 
             };
         }
@@ -33,7 +33,7 @@ namespace DataAccess.Concrete.InMemory
 
         public void Delete(Car car)
         {
-            Car carToDelete = _cars.SingleOrDefault(c => c.Id == car.Id);
+            Car carToDelete = _cars.SingleOrDefault(c => c.CarId == car.CarId);
 
             _cars.Remove(carToDelete);
 
@@ -57,7 +57,7 @@ namespace DataAccess.Concrete.InMemory
         public List<Car> GetAllById(int carId)
 
         {
-            return _cars.Where(c => c.Id == carId).ToList();
+            return _cars.Where(c => c.CarId == carId).ToList();
 
         }
 
@@ -71,13 +71,23 @@ namespace DataAccess.Concrete.InMemory
             throw new NotImplementedException();
         }
 
+        public List<CarDetailDto> GetCarDetailsByBrandId(int colorId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public CarDetailDto GetCarDetailsById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Update(Car car)
         {
 
-            Car carToUpdate = _cars.SingleOrDefault(c => c.Id == car.Id);
-            carToUpdate.Id = car.Id;
+            Car carToUpdate = _cars.SingleOrDefault(c => c.CarId == car.CarId);
+            carToUpdate.CarId = car.CarId;
             carToUpdate.DailyPrice = car.DailyPrice;
-            carToUpdate.Descriptionn = car.Descriptionn;
+            carToUpdate.Description = car.Description;
             carToUpdate.ModelYear = car.ModelYear;
 
 
