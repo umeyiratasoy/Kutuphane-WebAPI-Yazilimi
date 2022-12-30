@@ -2,6 +2,7 @@
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
+using Core.Utilities.Business;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -15,9 +16,14 @@ namespace Business.Concrete
     public class RentalManager : IRentalService
     {
         IRentalDal _rentalDal;
-        public RentalManager(IRentalDal rentalDal)
+        ICustomerService _customerService;
+        ICarService _carService;
+
+        public RentalManager(IRentalDal rentalDal, ICustomerService customerService, ICarService carService)
         {
             _rentalDal = rentalDal;
+            _customerService = customerService;
+            _carService = carService;
         }
 
         [ValidationAspect(typeof(RentalValidator))]
@@ -58,6 +64,88 @@ namespace Business.Concrete
         {
             _rentalDal.Update(rental);
             return new SuccessResult(Messages.RentalUpdated);
+        }
+
+        public IResult RulesForAdding(Rental rental)
+        {
+            var result = BusinessRules.Run(
+                CheckIfRentDateIsBeforeToday(rental.RentDate),
+                CheckIfReturnDateIsBeforeRentDate(rental.ReturnDate, rental.RentDate),
+                CheckIfThisCarIsAlreadyRentedInSelectedDateRange(rental),
+                //CheckIfCustomerIsFindeksPointIsSufficientForThisCar(carId, customerId),
+                CheckIfThisCarIsRentedAtALaterDateWhileReturnDateIsNull(rental),
+                CheckIfThisCarHasBeenReturned(rental));
+            if (result != null)
+            {
+                return result;
+            }
+            return new SuccessResult("Ödeme sayfasına yönlendiriliyorsunuz.");
+        }
+
+
+        private IResult CheckIfRentDateIsBeforeToday(DateTime rentDate)
+        {
+            if (rentDate.Date < DateTime.Now.Date)
+            {
+                return new ErrorResult(Messages.RentalDateCannotBeBeforeToday);
+            }
+            return new SuccessResult();
+        }
+
+        private IResult CheckIfThisCarIsRentedAtALaterDateWhileReturnDateIsNull(Rental rental)
+        {
+            var result = _rentalDal.Get(r =>
+            r.CarId == rental.CarId
+            && rental.ReturnDate == null
+            && r.RentDate.Date > rental.RentDate.Date
+            );
+
+            if (result != null)
+            {
+                return new ErrorResult(Messages.ReturnDateCannotBeLeftBlankAsThisCarWasAlsoRentedAtALaterDate);
+            }
+
+            return new SuccessResult();
+        }
+
+        private IResult CheckIfThisCarHasBeenReturned(Rental rental)
+        {
+            var result = _rentalDal.Get(r => r.CarId == rental.CarId && r.ReturnDate == null);
+
+            if (result != null)
+            {
+                if (rental.ReturnDate == null || rental.ReturnDate > result.RentDate)
+                {
+                    return new ErrorResult(Messages.ThisCarHasNotBeenReturnedYet);
+                }
+            }
+            return new SuccessResult();
+        }
+
+        private IResult CheckIfReturnDateIsBeforeRentDate(DateTime? returnDate, DateTime rentDate)
+        {
+            if (returnDate != null)
+                if (returnDate < rentDate)
+                {
+                    return new ErrorResult(Messages.ReturnDateCannotBeEarlierThanRentDate);
+                }
+            return new SuccessResult();
+        }
+
+        private IResult CheckIfThisCarIsAlreadyRentedInSelectedDateRange(Rental rental)
+        {
+            var result = _rentalDal.Get(r =>
+            r.CarId == rental.CarId
+            && (r.RentDate.Date == rental.RentDate.Date
+            || (r.RentDate.Date < rental.RentDate.Date
+            && (r.ReturnDate == null
+            || ((DateTime)r.ReturnDate).Date > rental.RentDate.Date))));
+
+            if (result != null)
+            {
+                return new ErrorResult(Messages.ThisCarIsAlreadyRentedInSelectedDateRange);
+            }
+            return new SuccessResult();
         }
     }
 }
