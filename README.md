@@ -94,3 +94,7 @@ Web API'sini çalıştırdıktan sonra, aşağıdaki gibi HTTP istekleri yapabil
 ## İlişkili Proje
 
 Bu projenin ön yüzü [Kutuphane-WebAPI-Yazilimi-Frontend](#) | Daha sonra yapılacak.
+
+## Yapılma Amacı
+
+Bu proje Atatürk Üniversitesi | Yönetim Bilişim Sistemleri| Yazılım Mühendisliği dersi için yapılmıştır.
