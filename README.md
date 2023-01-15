@@ -8,12 +8,10 @@ Kütüphanelerin Öğrenciler ve Görevli arasında iletişim sağlayıp kitapla
 
 ## Belgeler
 
-<<<<<<< HEAD
 Bu projenin ön yüzü [Kutuphane-WebAPI-Yazilimi-Frontend](#) | To be done later.
 =======
 Bu projenin öncesinde sistem analizi ve tasarım yapılıp Scrum Metodolojisi(kurgu) şeklinde kodlanmıştır.
    Gerekli belgelere tıklayıp ulaşabilirsiniz. [Belgeler](https://github.com/umeyiratasoy/Kutuphane-WebAPI-Yazilimi/tree/Kutuphane-WebAPI-Yazilimi/Documents)
->>>>>>> cdf45da46bd30cb6bc81f18ecc10005e0f5cb545
 
 
 ## Teknolojiler, Çerçeveler ve En İyi Uygulamalar
