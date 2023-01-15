@@ -7,7 +7,7 @@ using System.Text;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfOgrenciDal : EfEntityRepositoryBase<Ogrenci, ReCapProjectContext>, IOgrenciDal
+    public class EfOgrenciDal : EfEntityRepositoryBase<Ogrenci, KütüphaneWebAPIContext>, IOgrenciDal
     {
         
     }

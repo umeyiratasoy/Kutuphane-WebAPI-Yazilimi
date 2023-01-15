@@ -9,11 +9,11 @@ using System.Text;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfEmanetDal : EfEntityRepositoryBase<Emanet, ReCapProjectContext>, IEmanetDal
+    public class EfEmanetDal : EfEntityRepositoryBase<Emanet, KütüphaneWebAPIContext>, IEmanetDal
     {
         public List<EmanetDetayDto> GetEmanetDetaylar()
         {
-            using (ReCapProjectContext context = new ReCapProjectContext())
+            using (KütüphaneWebAPIContext context = new KütüphaneWebAPIContext())
             {
                 var result = from em in context.Emanetler
                              join og in context.Ogrenciler

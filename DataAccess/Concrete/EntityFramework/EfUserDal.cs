@@ -9,11 +9,11 @@ using Entities.Concrete;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfUserDal : EfEntityRepositoryBase<User, ReCapProjectContext>, IUserDal
+    public class EfUserDal : EfEntityRepositoryBase<User, KütüphaneWebAPIContext>, IUserDal
     {
         public List<OperationClaim> GetClaims(User user)
         {
-            using (var context = new ReCapProjectContext())
+            using (var context = new KütüphaneWebAPIContext())
             {
                 var result = from operationClaim in context.OperationClaims
                              join userOperationClaim in context.UserOperationClaims

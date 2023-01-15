@@ -8,3 +8,13 @@ D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Core\obj\Debug\n
 D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Core\obj\Debug\netstandard2.1\Core.csproj.CoreCompileInputs.cache
 D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Core\obj\Debug\netstandard2.1\Core.dll
 D:\Ümeyir\ders\Yazılım Ders Notları\kodlama.io\ReCapProject\Core\obj\Debug\netstandard2.1\Core.pdb
+C:\My\Ümeyir\ders\Yazılım Projeleri\Kütüphane WebAPI\Kütüphane-WebAPI\Core\bin\Debug\netstandard2.1\Core.deps.json
+C:\My\Ümeyir\ders\Yazılım Projeleri\Kütüphane WebAPI\Kütüphane-WebAPI\Core\bin\Debug\netstandard2.1\Core.dll
+C:\My\Ümeyir\ders\Yazılım Projeleri\Kütüphane WebAPI\Kütüphane-WebAPI\Core\bin\Debug\netstandard2.1\Core.pdb
+C:\My\Ümeyir\ders\Yazılım Projeleri\Kütüphane WebAPI\Kütüphane-WebAPI\Core\obj\Debug\netstandard2.1\Core.csproj.AssemblyReference.cache
+C:\My\Ümeyir\ders\Yazılım Projeleri\Kütüphane WebAPI\Kütüphane-WebAPI\Core\obj\Debug\netstandard2.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\My\Ümeyir\ders\Yazılım Projeleri\Kütüphane WebAPI\Kütüphane-WebAPI\Core\obj\Debug\netstandard2.1\Core.AssemblyInfoInputs.cache
+C:\My\Ümeyir\ders\Yazılım Projeleri\Kütüphane WebAPI\Kütüphane-WebAPI\Core\obj\Debug\netstandard2.1\Core.AssemblyInfo.cs
+C:\My\Ümeyir\ders\Yazılım Projeleri\Kütüphane WebAPI\Kütüphane-WebAPI\Core\obj\Debug\netstandard2.1\Core.csproj.CoreCompileInputs.cache
+C:\My\Ümeyir\ders\Yazılım Projeleri\Kütüphane WebAPI\Kütüphane-WebAPI\Core\obj\Debug\netstandard2.1\Core.dll
+C:\My\Ümeyir\ders\Yazılım Projeleri\Kütüphane WebAPI\Kütüphane-WebAPI\Core\obj\Debug\netstandard2.1\Core.pdb

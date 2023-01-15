@@ -7,7 +7,7 @@ using System.Text;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfKitapDal : EfEntityRepositoryBase<Kitap, ReCapProjectContext>, IKitapDal
+    public class EfKitapDal : EfEntityRepositoryBase<Kitap, KütüphaneWebAPIContext>, IKitapDal
     {
 
     }

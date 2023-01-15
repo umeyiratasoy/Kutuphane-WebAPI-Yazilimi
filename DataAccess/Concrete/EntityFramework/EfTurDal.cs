@@ -7,7 +7,7 @@ using System.Text;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfTurDal : EfEntityRepositoryBase<Tur, ReCapProjectContext>, ITurDal
+    public class EfTurDal : EfEntityRepositoryBase<Tur, KütüphaneWebAPIContext>, ITurDal
     {
         
     }
