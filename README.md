@@ -7,7 +7,6 @@ Kütüphanelerin Öğrenciler ve Görevli arasında iletişim sağlayıp kitapla
 
 ## Belgeler
 
-Bu projenin ön yüzü [Kutuphane-WebAPI-Yazilimi-Frontend](#) | To be done later.
 Bu projenin öncesinde sistem analizi ve tasarım yapılıp Scrum Metodolojisi(kurgu) şeklinde kodlanmıştır.
    Gerekli belgelere tıklayıp ulaşabilirsiniz. [Belgeler](https://github.com/umeyiratasoy/Kutuphane-WebAPI-Yazilimi/tree/Kutuphane-WebAPI-Yazilimi/Documents)
 
@@ -47,7 +46,7 @@ Web API'sini çalıştırdıktan sonra, aşağıdaki gibi HTTP istekleri yapabil
    ```sh
    https://localhost:44317/api/`CONTROLLER_NAME`/`METHOD_NAME`
    
-   "CONTROLLER_NAME" => "WebAPI.Controllers" klasöründe bulunan her bir .cs dosyası (Örneğin, "OgrencilerController" için CONTROLLER_NAME: ogrenciler ) </br>
+   "CONTROLLER_NAME" => "WebAPI.Controllers" klasöründe bulunan her bir .cs dosyası (Örneğin, "OgrencilerController" için CONTROLLER_NAME: ogrenciler )
    "METHOD_NAME" => "WebAPI.Controllers" klasöründeki her bir .cs dosyasındaki tüm yöntemler
    ```
 
