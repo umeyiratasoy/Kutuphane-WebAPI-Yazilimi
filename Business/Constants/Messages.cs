@@ -9,77 +9,54 @@ namespace Business.Constants
     public class Messages
     {
 
-        //Car
-        public static string CarAdded = "Car Added.";
-        public static string CarRemoved = "Car Removed.";
-        public static string CarUpdated = "Car Updated.";
-        public static string CarListed = "Car Listed.";
-        public static string CarNameAlreadyExists = "Car Name Already Exists";
-        public static string UpdateSuccessful = "Update Successful";
-
-        //Brand
-        public static string BrandAdded = "Brand Added";
-        public static string BrandRemoved = "Brand Removed";
-        public static string BrandUpdated = "Brand Updated";
-        public static string BrandListed = "Brand Listed";
-
-        //Color
-        public static string ColorAdded = "Color Added";
-        public static string ColorRemoved = "Color Removed";
-        public static string ColorUpdated = "Color Updated";
-        public static string ColorListed = "Color Listed";
-
-        //Customer
-        public static string CustomerAdded = "Customer Added";
-        public static string CustomerRemoved = "Customer Removed";
-        public static string CustomerUpdated = "Customer Updated";
-        public static string CustomerListed = "Customer Listed";
-        public static string CustomerInvalid = "Customer Invalid";
-
-        //Rental
-        public static string RentalAdded = "Rental Added";
-        public static string RentalRemoved = "Rental Removed";
-        public static string RentalUpdated = "Rental Updated";
-        public static string RentalListed = "Rental Listed";
-        public static string RentalInvalid = "Rental Invalid";
-
-        //User
-        public static string UserNameInvalid = "User Name Invalid.";
-        public static string UserAdded = "User Added.";
-        public static string UserDeleted = "User Removed.";
-        public static string UserUpdated = "User Updated.";
-        public static string UserListed = "User Listed.";
-
-        //CarImage
-        public static string CarImageUpdated = "Car Image Updated";
-        public static string CarImageDeleteError = "Car Image Deleted Error";
-        public static string CarImageDeleteSuccess = "Car Image Deleted Success";
-        public static string CarImageAdded = "Car Image Added";
-
+       
         //Erişim İzni
-        public static string AuthorizationDenied = "You are not authorized.";
-        //Auth
+        public static string AuthorizationDenied = "Yetkiniz Yok.";
+        //Auth and Users
+        public static string KullanıcıEklendi = "Kullanıcı Eklenmiştir.";
+        public static string KullanıcıGüncellendi = "Kullanıcı Güncellenmiştir.";
+        public static string KullanıcıSilindi = "Kullanıcı Silinmiştir.";
         public static string AccessTokenCreated = "Access Token Generated";
         public static string UserNotFound = "User Not Found";
-        public static string PasswordError = "Password Error";
-        public static string SuccessfulLogin = "Successful Login";
-        public static string UserRegistered = "User Registered";
-        public static string MailAlreadyExists = "User Already Exists";
-        public static string ClaimsListed = "Claims Listed";
+        public static string PasswordError = "Şifre Hatalı";
+        public static string SuccessfulLogin = "Giriş Başarılı";
+        public static string UserRegistered = "Kullanıcı Kayıtlı";
+        public static string MailAlreadyExists = "Kullanıcı zaten var";
 
-        public static string CarDetailsListed = "Araç Detayları Listelendi";
+        //Öğrenci
+        public static string OgrenciEklendi = "Öğrenci Eklenmiştir.";
+        public static string OgrenciGüncellendi = "Öğrenci Güncellenmiştir.";
+        public static string OgrenciSilindi = "Öğrenci Silinmiştir.";
+        public static string OgrenciListelendi = "Öğrenciler Listelendi.";
+        public static string İstenilenOgrenciListelendi = "İstenilen Öğrenci Listelenmiştir.";
 
-        public static string CardNumberMustConsistOfLettersOnly = "Kart Numarası Sadece Numaralardan Oluşmalıdır!";
+        //Tür
+        public static string TurEklendi = "Yeni Tür Eklenmiştir.";
+        public static string TurGuncellendi = "Tür Güncellenmiştir.";
+        public static string TurSilindi = "Tür Silinmiştir.";
+        public static string TurListelendi = "Türler Listelendi.";
+        public static string İstenilenTurListelendi = "İstenilen Tür Listelendi.";
 
-        public static string LastTwoDigitsOfYearMustBeEntered = "Yılın Son İki Hanesi Girilmelidir!";
-        public static string CardInformationIsIncorrect = "Kart bilgileri yanlış!";
+        //Kitap
+        public static string KitapEklendi = "Kitap Eklenmiştir.";
+        public static string KitapGüncellendi = "Kitap Güncellenmiştir.";
+        public static string KitapSilindi = "Kitap Silinmiştir.";
+        public static string KitapListelendi = "Kitaplar Listelendi";
+        public static string İstenilenKitapListelendi = "İstenilen Kitap Listelendi.";
 
-        public static string PayIsSuccessfull = "Ödeme Başarılı ile gerçekleşti!";
+        //Yazar
+        public static string YazarEklendi = "Yazar Eklenmiştir.";
+        public static string YazarGüncellendi = "Yazar Güncellendi.";
+        public static string YazarSilindi = "Yazar Silinmiştir.";
+        public static string YazarListelendi = "Yazarlar Listelenmiştir.";
+        public static string İstenilenYazarListelendi = "İstenilen Yazar Listelendi.";
 
-        public static string RentalDateCannotBeBeforeToday = "Kiralama tarihi geçmiş bir tarih olamaz!";
-        public static string ReturnDateCannotBeLeftBlankAsThisCarWasAlsoRentedAtALaterDate = "Bu araç daha sonra bir tarihte kiralanmış olduğu için iade tarihi boş bırakılamaz";
-        public static string ThisCarHasNotBeenReturnedYet = "Araç bu tarihler arasında galerimizde değil!";
-        public static string ReturnDateCannotBeEarlierThanRentDate = "Dönüş tarihi kiralama tarihinden önce olamaz!";
-        public static string ThisCarIsAlreadyRentedInSelectedDateRange = "Araba bu tarihler arasında zaten kiralanmıştır.";
+        //Emanet
+        public static string EmanetEklendi = "Emanet Eklenmiştir.";
+        public static string EmanetGüncellendi = "Emanet Güncellendi.";
+        public static string EmanetSilindi = "Emanet Silinmiştir.";
+        public static string EmanetListelendi = "Emanetler Listelenmiştir.";
+        public static string İstenilenEmanetListelendi = "İstenilen Emanet Listelendi.";
+
     }
 }

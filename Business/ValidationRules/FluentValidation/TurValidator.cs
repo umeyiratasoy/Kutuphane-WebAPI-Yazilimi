@@ -1,0 +1,18 @@
+﻿using Entities.Concrete;
+using FluentValidation;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Business.ValidationRules.FluentValidation
+{
+    public class TurValidator : AbstractValidator<Tur>
+    {
+        public TurValidator()
+        {
+            RuleFor(t => t.TurAd).NotEmpty();
+        }
+    }
+
+    
+}

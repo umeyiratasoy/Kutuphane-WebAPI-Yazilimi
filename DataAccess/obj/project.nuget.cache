@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SaucAi7SjjxyNWNl6Jw0go19JGPwa4r8FoiehjiKngzRw648SRxUAW+Z44BfqC/jJOzXs52KenXgcqiMcp4WNg==",
+  "dgSpecHash": "J19/2TAT2z432PusTXemFEAcacrY9KJl9LnASwe3UcB9n4bAHLGmtDbA9PNWYcEi7BKe3X0zmiwFNxf5KBLW0Q==",
   "success": true,
-  "projectFilePath": "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\umeyi\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\umeyi\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",

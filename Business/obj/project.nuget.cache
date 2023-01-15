@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lQu3Pcm6T3MY7wLPvFpy4ELSNt2bqt4fm2a1uKKVh/DP3cwGMxgLSYR079Lxwl6dHRZTpIOIog8FhaAxGP/HqA==",
+  "dgSpecHash": "WCR06+/9skH6P9VEba8HAP+S6NqSz2NMLGT+ZUDizKJW/eEE005Zku4Jh6RdZToxNU8Dnri9kiJdWXCa7UBITQ==",
   "success": true,
-  "projectFilePath": "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\Business\\Business.csproj",
+  "projectFilePath": "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\umeyi\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\umeyi\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\DataAccess\\DataAccess.csproj": {}
+    "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\Core\\Core.csproj": {
+    "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\Core\\Core.csproj",
+        "projectPath": "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\umeyi\\.nuget\\packages\\",
-        "outputPath": "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\Core\\obj\\",
+        "outputPath": "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\umeyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,25 +92,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\umeyi\\.nuget\\packages\\",
-        "outputPath": "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\umeyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -128,11 +120,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\Core\\Core.csproj"
+              "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\Core\\Core.csproj": {
+                "projectPath": "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\Core\\Core.csproj"
               },
-              "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\Entities\\Entities.csproj"
               }
             }
           }
@@ -167,25 +159,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\Entities\\Entities.csproj": {
+    "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\umeyi\\.nuget\\packages\\",
-        "outputPath": "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\Entities\\obj\\",
+        "outputPath": "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\umeyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -199,8 +187,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\Core\\Core.csproj"
+              "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\Core\\Core.csproj": {
+                "projectPath": "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\Core\\Core.csproj"
               }
             }
           }
@@ -235,7 +223,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }

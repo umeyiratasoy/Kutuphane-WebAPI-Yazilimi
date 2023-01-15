@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cf7W1reDCpuarsQWvhbVPA7F4Ac9YF/7YFczVpQAEcOR/sbu+VtJ7L29jrJLRDBrkr7M4YAEOTmPIjXtFet7iQ==",
+  "dgSpecHash": "A1X6cULY0Mz3BdXfEMxxWWxLJ79uG+N/y6blZ+8DNwCFT2zTgUk9kYQZFqLRAhL4w/PkJu/DTRJEfK2KU5GN0Q==",
   "success": true,
-  "projectFilePath": "D:\\Ümeyir\\ders\\Yazılım Ders Notları\\kodlama.io\\ReCapProject\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\My\\Ümeyir\\ders\\Yazılım Projeleri\\Kütüphane WebAPI\\Kütüphane-WebAPI\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\umeyi\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\umeyi\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
