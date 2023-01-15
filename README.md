@@ -46,9 +46,11 @@ Web API'sini çalıştırdıktan sonra, aşağıdaki gibi HTTP istekleri yapabil
    
    ```sh
    https://localhost:44317/api/`CONTROLLER_NAME`/`METHOD_NAME`
+   
+   "CONTROLLER_NAME" => "WebAPI.Controllers" klasöründe bulunan her bir .cs dosyası (Örneğin, "OgrencilerController" için CONTROLLER_NAME: ogrenciler ) </br>
+   "METHOD_NAME" => "WebAPI.Controllers" klasöründeki her bir .cs dosyasındaki tüm yöntemler
    ```
-"CONTROLLER_NAME" => "WebAPI.Controllers" klasöründe bulunan her bir .cs dosyası (Örneğin, "OgrencilerController" için CONTROLLER_NAME: ogrenciler )
-"METHOD_NAME" => "WebAPI.Controllers" klasöründeki her bir .cs dosyasındaki tüm yöntemler
+
  
 #### Örnek HTTP GET istekleri
 
