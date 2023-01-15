@@ -1,4 +1,3 @@
-# <p align="center">Kütüphane-WebAPI</p>
 <div align="center">Kutuphane-WebAPI-Yazilimi </br>
 Kütüphanelerin Öğrenciler ve Görevli arasında iletişim sağlayıp kitapların alışveriş verilerini saklayacağı HTTP Tabanlı Rest-Ful Servisli WebAPI Yazılımı </div>
 
@@ -8,7 +7,8 @@ Kütüphanelerin Öğrenciler ve Görevli arasında iletişim sağlayıp kitapla
 
 ## Belgeler
 
-Bu projenin ön yüzü [Kutuphane-WebAPI-Yazilimi-Frontend](#) | To be done later.
+Bu projenin öncesinde sistem analizi ve tasarım yapılıp Scrum Metodolojisi(kurgu) şeklinde kodlanmıştır.
+   Gerekli belgelere tıklayıp ulaşabilirsiniz. [Belgeler](https://github.com/umeyiratasoy/Kutuphane-WebAPI-Yazilimi/tree/Kutuphane-WebAPI-Yazilimi/Documents)
 
 
 ## Teknolojiler, Çerçeveler ve En İyi Uygulamalar
