@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 # <p align="center">Kütüphane-WebAPI</p>
-=======
->>>>>>> cdf45da46bd30cb6bc81f18ecc10005e0f5cb545
 <div align="center">Kutuphane-WebAPI-Yazilimi </br>
 Kütüphanelerin Öğrenciler ve Görevli arasında iletişim sağlayıp kitapların alışveriş verilerini saklayacağı HTTP Tabanlı Rest-Ful Servisli WebAPI Yazılımı </div>
 
