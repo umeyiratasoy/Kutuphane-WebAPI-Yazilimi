@@ -44,7 +44,9 @@ Bu projenin öncesinde sistem analizi ve tasarım yapılıp Scrum Metodolojisi(k
  
 Web API'sini çalıştırdıktan sonra, aşağıdaki gibi HTTP istekleri yapabilirsiniz:
    
-
+   ```sh
+   https://localhost:44317/api/`CONTROLLER_NAME`/`METHOD_NAME`
+   ```
  
     "CONTROLLER_NAME" => "WebAPI.Controllers" klasöründe bulunan her bir .cs dosyası (Örneğin, "OgrencilerController" için CONTROLLER_NAME: ogrenciler )
     "METHOD_NAME" => "WebAPI.Controllers" klasöründeki her bir .cs dosyasındaki tüm yöntemler
